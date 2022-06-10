@@ -55,12 +55,22 @@ img {
     color: #000;
     font-weight: bold;
     font-size: 1.1em; }
+    .main__nav__links:hover {
+      background-color: #d6d6d6; }
 
 .main__iconos {
   display: flex;
   justify-content: center;
   gap: 1em;
-  color: #fff; }
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease; }
+  .main__iconos i {
+    transition: all 0.3s ease; }
+  .main__iconos i:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+    color: aqua; }
 
 @media (max-width: 768px) {
   .container {
